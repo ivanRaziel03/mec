@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>MEC — Multiversal Echoes Clash</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="wrap">
+    <canvas id="game" width="960" height="540"></canvas>
+    <!-- Touch layer -->
+    <div id="touch">
+      <div id="dpad">
+        <div class="pad" id="left">◀</div>
+        <div class="pad" id="right">▶</div>
+        <div class="pad" id="up">▲</div>
+        <div class="pad" id="block">🛡</div>
+      </div>
+      <div id="btns">
+        <div class="btn atk" id="atk-a">A</div>
+        <div class="btn atk" id="atk-b">B</div>
+        <div class="btn spec" id="atk-c">C</div>
+        <div class="btn hyper" id="atk-h">⚡HC</div>
+      </div>
+    </div>
+    <div id="title-overlay">
+      <h1 class="mec-title">MEC</h1>
+      <p class="mec-sub">MULTIVERSAL ECHOES CLASH</p>
+      <button id="start-btn">▶ INICIAR TORNEO</button>
+      <p class="hint">Teléfono: D-pad + botones · PC: ←→↑ ↓ · A/B/C/ENTER · tecla ESC = pausa</p>
+    </div>
+  </div>
+  <script type="module" src="js/mec.js"></script>
+</body>
+</html>

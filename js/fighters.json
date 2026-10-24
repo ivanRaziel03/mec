@@ -1,0 +1,60 @@
+{
+  "fighters": [
+    {
+      "id": "volt",
+      "name": "VOLT",
+      "colors": { "skin": "#f2c9a1", "suit": "#38bdf8", "accent": "#0c4a6e" },
+      "health": 100,
+      "speed": 3.4,
+      "style": "rushdown",
+      "moves": {
+        "a":     { "name": "Jab",      "dmg": 6,  "startup": 3,  "active": 3,  "recovery": 7,  "reach": 46, "meterGain": 8 },
+        "b":     { "name": "Patada B", "dmg": 13, "startup": 6,  "active": 4,  "recovery": 12, "reach": 60, "meterGain": 10 },
+        "c":     { "name": "Rayo Volt",         "dmg": 10, "startup": 10, "active": 6,  "recovery": 16, "reach": 220,"meterGain": 14, "projectile": true, "meterCost": 25 },
+        "hyper": { "name": "Mega Chispa",       "dmg": 30, "startup": 8,  "active": 14, "recovery": 22, "reach": 300,"hyper": true }
+      }
+    },
+    {
+      "id": "bruto",
+      "name": "BRUTO",
+      "colors": { "skin": "#d99b6c", "suit": "#b45309", "accent": "#45203b" },
+      "health": 120,
+      "speed": 2.6,
+      "style": "grappler",
+      "moves": {
+        "a":     { "name": "Golpe",    "dmg": 9,  "startup": 5,  "active": 4,  "recovery": 9,  "reach": 50, "meterGain": 9 },
+        "b":     { "name": "Mazo",     "dmg": 16, "startup": 9,  "active": 5,  "recovery": 15, "reach": 64, "meterGain": 12 },
+        "c":     { "name": "Agarre Brutal",     "dmg": 15, "startup": 8,  "active": 4,  "recovery": 18, "reach": 54, "meterGain": 16, "throw": true, "meterCost": 30 },
+        "hyper": { "name": "Titanzuelo",        "dmg": 34, "startup": 10, "active": 10, "recovery": 26, "reach": 70, "hyper": true }
+      }
+    },
+    {
+      "id": "siren",
+      "name": "SIREN",
+      "colors": { "skin": "#e7c3d4", "suit": "#0ea5e9", "accent": "#1e1b4b" },
+      "health": 90,
+      "speed": 3.9,
+      "style": "zoner",
+      "moves": {
+        "a":     { "name": "Látiz",          "dmg": 7,  "startup": 4,  "active": 4,  "recovery": 8,  "reach": 78, "meterGain": 9 },
+        "b":     { "name": "Eco Musical",    "dmg": 12, "startup": 7,  "active": 5,  "recovery": 13, "reach": 60, "meterGain": 11 },
+        "c":     { "name": "Nota Superna",   "dmg": 9,  "startup": 9,  "active": 8,  "recovery": 15, "reach": 240,"meterGain": 14, "projectile": true, "meterCost": 25 },
+        "hyper": { "name": "Sinfonía Roja",  "dmg": 32, "startup": 10, "active": 18, "recovery": 24, "reach": 320,"hyper": true }
+      }
+    },
+    {
+      "id": "dorado",
+      "name": "DORADO",
+      "colors": { "skin": "#c8843c", "suit": "#eab308", "accent": "#3f3f46" },
+      "health": 105,
+      "speed": 3.1,
+      "style": "counter",
+      "moves": {
+        "a":     { "name": "Directo",     "dmg": 8,  "startup": 4,  "active": 3,  "recovery": 7,  "reach": 52, "meterGain": 10 },
+        "b":     { "name": "Gancho",      "dmg": 15, "startup": 8,  "active": 4,  "recovery": 14, "reach": 58, "meterGain": 12 },
+        "c":     { "name": "Contra Dorada",    "dmg": 13, "startup": 6,  "active": 5,  "recovery": 15, "reach": 66, "meterGain": 15, "counter_hit": true, "meterCost": 30 },
+        "hyper": { "name": "Combo Dorado",      "dmg": 30, "startup": 6,  "active": 16, "recovery": 20, "reach": 90, "hyper": true }
+      }
+    }
+  ]
+}
